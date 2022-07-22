@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "92e52104-e85f-4a8e-a3f4-e1c0fbd805d5",
+		"name": "8th yaml",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "with rest",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "rest and soap",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

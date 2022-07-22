@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "648275dc-f132-4907-8bd7-552a77c40898",
+		"name": "9th module Event flow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Queryparam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/flights?code=SFO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"flights"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "SFO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "particular query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/flights?code=SFO&airline=american",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"flights"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "SFO"
+						},
+						{
+							"key": "airline",
+							"value": "american"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
